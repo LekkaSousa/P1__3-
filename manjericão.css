@@ -1,0 +1,122 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #000;
+    color: #a6bbd3;
+  }
+  
+  header  {
+    
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    color: #4a34c7;
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  #procurar {
+    width: 440px;
+    height: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2F343A;
+    color: #a6bbd3;
+    margin-bottom: 20px;
+  }
+
+  #procurar:hover{
+    background-color:#363542 ;
+
+  }
+  
+  #buscar {
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color:#4a34c7;
+    color: #a6bbd3;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  #buscar:hover {
+    background-color: #461a97;
+  }
+  
+  #manga-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    overflow-y: auto;
+    background-color: #312d3b;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  #manga-list li {
+    padding: 10px;
+    border-bottom: 1px solid #392a8f;
+    display: flex;
+    align-items: center;
+  }
+  
+  #manga-list img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .favorite-checkbox {
+    margin-right: 60px;
+  }
+  
+  .manga-content {
+    display: none;
+  }
+  
+  .manga-content.expanded {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #cf {
+    background-color: #4a34c7;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #manga-list li.active .manga-content {
+    display: block;
+    padding: 20px;
+    background-color: #312d3b;
+    border-radius: 5px;
+  }
+
+  #manga-list li .manga-content img {
+    width: 200px;
+    height: 250px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: left;
+  }
+
+  .favorite-checkbox {
+    accent-color: #34C759;
+    background-color: #2F343A;
+    border: 1px solid #34C759;
+    border-radius: 5px;
+  }
+  
+  
